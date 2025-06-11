@@ -132,7 +132,7 @@ function checkPose(prediction, video) {
                 }
                 break;
             case '4':
-                if (time >=19  && time <= 22.9 && !poseState.triggered) {
+                if (time >=15  && time <= 18 && !poseState.triggered) {
                     triggerExplosion(poseState);
                 }
                 break;
